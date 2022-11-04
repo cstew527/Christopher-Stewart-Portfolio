@@ -6,17 +6,18 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>HTML 5 Boilerplate</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     </head>
     <body>
         <script src="app.js"></script>
         <div class="navigation">
             <nav>
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Bio</a></li>
-                    <li><a href="">Resume</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Links</a></li>
+                    <li><div class="navButton" id="home">Home</div></li>
+                    <li><div class="navButton" id="bio">Bio</div></li>
+                    <li><div class="navButton" id="resume">Resume</div></li>
+                    <li><div class="navButton" id="projects">Projects</div></li>
+                    <li><div class="navButton" id="links">Links</div></li>
                 </ul>
             </nav>
         </div>
@@ -26,19 +27,63 @@
         </div>
         <div class="main">
             <div class="home">
-
+                <h2>Home Test</h2>
+                <p>Test</p>
             </div>
             <div class="bio">
-
+                <h2>Bio Test</h2>
+                <p>Test</p>
             </div>
             <div class="resume">
-
+                <h2>Resume Test</h2>
+                <p>Test</p>
             </div>
             <div class="projects">
-
+                <h2>Projects Test</h2>
+                <p>Test</p>
+                <div class="project-landscaper">
+                    <button id="cutGrass">Cut the grass!</button>
+                    <button id="buyItem">Buy Item!</button>
+                    <h1 id="playersBalance">Current Balance: </h1>
+                    <h2 id="equippedItem">Equipped Item: </h2>
+                    <table id="shop">
+                        <tr>
+                            <th>Tool</th>
+                            <th>Cost</th>
+                            <th>Earning</th>
+                            
+                        </tr>
+                        <tr>
+                            <td>Teeth</td>
+                            <td>$0</td>
+                            <td>$1</td>
+                        </tr>
+                        <tr>
+                            <td>Rusty Scissors</td>
+                            <td>$5</td>
+                            <td>$5</td>
+                        </tr>
+                        <tr>
+                            <td>Push Lawnmower</td>
+                            <td>$25</td>
+                            <td>$50</td>
+                        </tr>
+                        <tr>
+                            <td>Battery-powered Lawnmower</td>
+                            <td>$250</td>
+                            <td>$100</td>
+                        </tr>
+                        <tr>
+                            <td>Team of Starving Students</td>
+                            <td>$500</td>
+                            <td>$250</td>
+                        </tr>
+                    </table>
+                </div>
             </div>
             <div class="links">
-
+                <h2>Links Test</h2>
+                <p>Test</p>
             </div>
         </div>
 
