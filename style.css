@@ -5,12 +5,9 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
-
-li {
-    float: left;
-}
   
-li div {
+.navButton {
+    float: left;
     display: block;
     color: white;
     text-align: center;
@@ -19,7 +16,7 @@ li div {
     cursor: pointer;
 }
 
-li div:hover {
+.navButton:hover {
     background-color: #111;
 }
 
