@@ -4,8 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>HTML 5 Boilerplate</title>
+        <title>Christopher Stewart</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -17,7 +20,6 @@
                     <li><div class="navButton" id="bio">Bio</div></li>
                     <li><div class="navButton" id="resume">Resume</div></li>
                     <li><div class="navButton" id="projects">Projects</div></li>
-                    <li><div class="navButton" id="links">Links</div></li>
                 </ul>
             </nav>
         </div>
@@ -27,63 +29,116 @@
         </div>
         <div class="main">
             <div class="home">
-                <h2>Home Test</h2>
-                <p>Test</p>
+                <p>I am an individual who is passionate about learning and creating useful software that will change the world. 
+                    I also have very strong problem-solving skills, and I am always ready to learn new things.
+                    My goal is to help people to be more productive, creative, and happy through technology.</p>
+                <a href="www.linkedin.com/in/christopher-kareem-stewart">
+                    <i class="fa fa-linkedin" style="font-size:48px"></i>
+                </a>
+                <a href="https://github.com/cstew527">
+                    <i class="fa fa-github" style="font-size:48px"></i>
+                </a>
             </div>
             <div class="bio">
-                <h2>Bio Test</h2>
-                <p>Test</p>
+                <p>I am a young tech enthusiast who likes working as a developer.
+                    I have been developing software for two years in several programming languages.
+                    I was always curious about computers and their technicalities.
+                    That's why programming has become not only my job but also my hobby.
+                    I have a habit of solving programming problems.
+                    In this way, I have gathered experience.
+                    I am always hungry to learn new things.
+                </p>
+                <p>
+                    I attended St. Johns University to pursue computer science.
+                    I picked up a lot of programming knowledge and made many meaningful connections.
+                    In my spare time, I worked on personal projects, gained experience, learned from my mistakes, and further enhanced my programming skills.
+                    Today, I am a fully responsible professional with very good experience in the field who can adapt to anything and everything.
+                </p>
             </div>
             <div class="resume">
-                <h2>Resume Test</h2>
-                <p>Test</p>
+                <h2>Education</h2>
+                <ul>
+                    <li>General Assembly</li>
+                    <li>St. John's University</li>
+                    <li>Queens College</li>
+                </ul>
+                <h2>Work Experience</h2>
+                <ul>
+                    <li>Love & Empathy Healthcare Services, LLC</li>
+                    <li>Barrister</li>
+                    <li>Wal-Mart</li>
+                </ul>
+                <button class="btn"><i class="fa fa-download"></i> Download Resume</button>
             </div>
             <div class="projects">
-                <h2>Projects Test</h2>
-                <p>Test</p>
-                <div class="project-landscaper">
-                    <button id="cutGrass">Cut the grass!</button>
-                    <button id="buyItem">Buy Item!</button>
-                    <h1 id="playersBalance">Current Balance: </h1>
-                    <h2 id="equippedItem">Equipped Item: </h2>
-                    <table id="shop">
-                        <tr>
-                            <th>Tool</th>
-                            <th>Cost</th>
-                            <th>Earning</th>
-                            
-                        </tr>
-                        <tr>
-                            <td>Teeth</td>
-                            <td>$0</td>
-                            <td>$1</td>
-                        </tr>
-                        <tr>
-                            <td>Rusty Scissors</td>
-                            <td>$5</td>
-                            <td>$5</td>
-                        </tr>
-                        <tr>
-                            <td>Push Lawnmower</td>
-                            <td>$25</td>
-                            <td>$50</td>
-                        </tr>
-                        <tr>
-                            <td>Battery-powered Lawnmower</td>
-                            <td>$250</td>
-                            <td>$100</td>
-                        </tr>
-                        <tr>
-                            <td>Team of Starving Students</td>
-                            <td>$500</td>
-                            <td>$250</td>
-                        </tr>
-                    </table>
+                <div class="carousel">
+                    <div class="previous-button">
+                        <span class="lnr lnr-arrow-left"></span>
+                    </div>
+                    <div class="image-container">
+                        <img class="project-image" src="images/landscaper-image.jpg" alt="landscaper image" style="display:block">
+                        <img class="project-image" src="images/hangman-image.jpg" alt="hangman image" style="display:none">
+                        <img class="project-image" src="images/space-battle-image.jpg" alt="space battle image" style="display:none">
+                        <img class="project-image" src="images/color-compare-image.jpg" alt="color compare image" style="display:none">
+                    </div>
+                    <div class="next-button">
+                        <span class="lnr lnr-arrow-right"></span>
+                    </div>
                 </div>
-            </div>
-            <div class="links">
-                <h2>Links Test</h2>
-                <p>Test</p>
+                <div class="projects-container">
+                    <div class="project-landscaper">
+                        <h1 class="project-title">Landscaper</h1>
+                        <button id="cutGrass">Cut the grass!</button>
+                        <button id="buyItem">Buy Item!</button>
+                        <h2 id="playersBalance">Current Balance: </h1>
+                        <h3 id="equippedItem">Equipped Item: </h2>
+                        <table id="shop">
+                            <tr>
+                                <th>Tool</th>
+                                <th>Cost</th>
+                                <th>Earning</th>
+                                
+                            </tr>
+                            <tr>
+                                <td>Teeth</td>
+                                <td>$0</td>
+                                <td>$1</td>
+                            </tr>
+                            <tr>
+                                <td>Rusty Scissors</td>
+                                <td>$5</td>
+                                <td>$5</td>
+                            </tr>
+                            <tr>
+                                <td>Push Lawnmower</td>
+                                <td>$25</td>
+                                <td>$50</td>
+                            </tr>
+                            <tr>
+                                <td>Battery-powered Lawnmower</td>
+                                <td>$250</td>
+                                <td>$100</td>
+                            </tr>
+                            <tr>
+                                <td>Team of Starving Students</td>
+                                <td>$500</td>
+                                <td>$250</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="project-hangman">
+                        <h1 class="project-title">Hangman</h1>
+                        <a href="https://git.generalassemb.ly/cstew527/SEIR-Eevee/tree/master/unit_1/w01d05/student_labs">View the source code here!</a>
+                    </div>
+                    <div class="project-space-battle">
+                        <h1 class="project-title">Space Battle</h1>
+                        <a href="https://git.generalassemb.ly/levonal/SEIR-Eevee/tree/master/unit_1/w02d02/student_labs/spacebattle">View the source code here!</a>
+                    </div>
+                    <div class="project-color-compare">
+                        <h1 class="project-title">Color Compare</h1>
+                        <a href="https://github.com/cstew527/ColorCompare">View the source code here!</a>
+                    </div>
+                </div>
             </div>
         </div>
 

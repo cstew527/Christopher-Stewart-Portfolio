@@ -1,15 +1,21 @@
-ul {
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #f7f3e3;
+    color: #2b2118
+}
+
+.navigation ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #af9164;
 }
   
 .navButton {
     float: left;
     display: block;
-    color: white;
+    color: #f7f3e3;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -17,17 +23,110 @@ ul {
 }
 
 .navButton:hover {
-    background-color: #111;
+    background-color: #6f1a07;
 }
 
 div.header {
     text-align: center;
 }
 
-img {
+#portrait {
     width: 25%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 60%;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.previous-button, .next-button {
+    align-self: center;
+    background: #af9164;
+    color: #f7f3e3;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.previous-button:hover, .next-button:hover {
+    cursor: pointer;
+    background-color: #6f1a07;
+}
+
+.project-landscaper {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+.home, .bio {
+    text-align: center;
+}
+
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+}
+  
+  /* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+  
+  /* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .navButton {
+        float: none;
+        width: 100%;
+    }
+
+    #portrait {
+        display: none;
+    }
 }
